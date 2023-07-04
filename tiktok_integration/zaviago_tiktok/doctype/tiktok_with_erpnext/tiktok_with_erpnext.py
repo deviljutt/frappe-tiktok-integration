@@ -143,7 +143,7 @@ class handleTiktokRequests:
 			"phone": order_address["phone"],
 			 
 			 
-			"links": [{"link_doctype": "Customer", "link_name": 'T** s***box I* b***r'}],
+			"links": [{"link_doctype": "Customer", "link_name": customer_name}],
 			"is_primary_address": int(address_type == "Billing"),
 			"is_shipping_address": int(also_shipping or address_type == "Shipping"),
 		}
